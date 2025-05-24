@@ -1,0 +1,34 @@
+# Hexo Configuration
+title: My Blog
+subtitle: ''
+description: ''
+keywords:
+author: Zhaoliyang
+language: zh-CN
+timezone: Asia/Shanghai
+
+# URL
+url: https://jiimmmy22.github.io
+root: /
+permalink: :year/:month/:day/:title/
+permalink_defaults:
+
+# Directory
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+
+# Writing
+new_post_name: :title.md
+default_layout: post
+
+# Theme
+theme: livemylife
+
+# Deployment
+deploy:
+  type: git
+  repo: git@github.com:Jiimmmy22/Jiimmmy22.github.io.git
+  branch: main
